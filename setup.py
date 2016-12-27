@@ -5,14 +5,14 @@ with open("README.rst") as f:
     long_description = f.read()
 
 setup(
-    name="django-templatetag-sugar",
+    name="django-templatetag-sugarv2",
     version=__import__("templatetag_sugar").__version__,
     author="Alex Gaynor",
     author_email="alex.gaynor@gmail.com",
     description="A library to make Django's template tags sweet.",
     long_description=long_description,
     license="BSD",
-    url="http://github.com/alex/django-templatetag-sugar/",
+    url="https://github.com/Budek/django-templatetag-sugar",
     packages=[
         "templatetag_sugar",
     ],
